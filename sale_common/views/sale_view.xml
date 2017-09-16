@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="sale_common_view_order_tree" model="ir.ui.view">
+            <field name="name">sale.order.tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='amount_total']" position='before'>
+                    <field name="margin" string="Margen" sum="Margin" groups="base.group_sale_manager"/>
+                    <field name="date_order_hour" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+        <record id="sale_common_view_sales_order_filter" model="ir.ui.view">
+            <field name="name">sale.order.list.select</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_sales_order_filter"/>
+            <field name="arch" type="xml">
+                <xpath expr="//filter[@string='Order Month']" position="after">
+                        <filter string="Order Day" domain="[]" context="{'group_by':'date_order:day'}"/>
+                </xpath>
+                <xpath expr="//filter[@string='Order Day']" position="after">
+                        <filter string="Order Hour" domain="[]" context="{'group_by':'date_order_hour'}"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>

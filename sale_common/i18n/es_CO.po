@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20170207\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 15:55+0000\n"
+"PO-Revision-Date: 2017-09-15 11:00-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CO\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: sale_custom
+#: view:website:report.external_layout_header
+msgid "Generado por www.sinapsis.online"
+msgstr "Generado por www.sinapsis.online"
+
+#. module: sale_custom
+#: view:res.partner:sale_custom.jsale_view_partner_form
+msgid "Identificacion"
+msgstr "Identificación"
+
+#. module: sale_custom
+#: field:res.users,is_salesman:0
+msgid "Is Salesman"
+msgstr "Es Vendedor"
+
+#. module: sale_custom
+#: view:sale.order:sale_custom.view_order_tree_inh34
+msgid "Margen"
+msgstr "Ganancia"
+
+#. module: sale_custom
+#: view:sale.order:sale_custom.view_order_tree_inh34
+msgid "Margin"
+msgstr "Ganancia"
+
+#. module: sale_custom
+#: view:website:report.external_layout_header
+msgid "Nit:"
+msgstr "Nit:"
+
+#. module: sale_custom
+#: view:sale.order:sale_custom.jsale_view_sales_order_filter
+msgid "Order Day"
+msgstr "Día de Pedido"
+
+#. module: sale_custom
+#: view:sale.order:sale_custom.jsale_view_sales_order_filter
+msgid "Order Hour"
+msgstr "Hora de Pedido"
+
+#. module: sale_custom
+#: model:ir.model,name:sale_custom.model_res_partner
+msgid "Partner"
+msgstr "Empresa/Cliente"
+
+#. module: sale_custom
+#: code:addons/sale_custom/models/res_partner.py:33
+#, python-format
+msgid "Partner already exists and violates unique field constraint"
+msgstr "El client ya existe y no puede ser agregado nuevamente"
+
+#. module: sale_custom
+#: code:addons/sale_custom/models/res_partner.py:39
+#, python-format
+msgid "Partner duplicate!"
+msgstr "Cliente duplicado!"
+
+#. module: sale_custom
+#: field:sale.order,date_order_hour:0
+msgid "Sale Hour"
+msgstr "Hora de Venta"
+
+#. module: sale_custom
+#: model:ir.model,name:sale_custom.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de Venta"
+
+#. module: sale_custom
+#: model:ir.model,name:sale_custom.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de Pedido de Venta"
+
+#. module: sale_custom
+#: model:ir.model,name:sale_custom.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: sale_custom
+#: view:res.partner:sale_custom.jsale_view_partner_form
+msgid "[('is_salesman','=',True)]"
+msgstr "[('is_salesman','=',True)]"
+
+#. module: sale_custom
+#: view:res.partner:sale_custom.jsale_view_partner_form
+msgid "selection"
+msgstr "selection"
