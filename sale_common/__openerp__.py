@@ -20,12 +20,17 @@
 ##############################################################################
 
 {
-    "name":"Sale Various Utils",
+    "name":"Sale Common Util Features",
     "description":"""\
-Sale Report Module Modifications
-==================================
+Sale Common Util Features
+=========================
 
-Utilidades que permiten mejor desempeno del modulo de ventas.
+Utilidades que permiten mejorar desempeño del módulo de ventas.
+
+Aporta:
+
+* Columna y sumatoria margen de venta.
+* Agrupación de ventas por día y por horas
 
     """,
     "depends":['sale','sale_margin'],
